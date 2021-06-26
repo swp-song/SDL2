@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		394C0AF0E8F9A34D316B5FDB46CBDC9C /* SDL2 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 605501BDE812FBE3446205D77DF3D4C2 /* Build configuration list for PBXAggregateTarget "SDL2" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SDL2;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0A6D8876D9DB500DB13B6D651E157D33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		77B1FC3880986963A4420E46E99D4246 /* Pods-SDL2.OC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4FF7D04699EE123BCD0581BF4D4D76 /* Pods-SDL2.OC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD1B4BC0A8DE6B2BFD6746C758D7114D /* Pods-SDL2.OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 819FB8052CC72E66729D843B397669FE /* Pods-SDL2.OC-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B62B02724B9563D88E1F947CD7F83DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 394C0AF0E8F9A34D316B5FDB46CBDC9C;
+			remoteInfo = SDL2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BA3FCBFAC13317AE9A4566DE3A1ACF /* Pods-SDL2.OC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDL2.OC-Info.plist"; sourceTree = "<group>"; };
+		066086538C9B28D3DC661036E3697F62 /* SDL_test_harness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_harness.h; sourceTree = "<group>"; };
+		06BE9A6B081CFE45F2025D1AFF43DF54 /* SDL_gamecontroller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_gamecontroller.h; sourceTree = "<group>"; };
+		07A3E61CDBCBEDB4ED2464D6B05228CF /* SDL_config_macosx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_macosx.h; sourceTree = "<group>"; };
+		0CB27B1ABD3AB1D236F4EF076F0BEBEB /* SDL_log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_log.h; sourceTree = "<group>"; };
+		0CD117F03DDA8911332BFD896565384A /* SDL_config_iphoneos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_iphoneos.h; sourceTree = "<group>"; };
+		1230DA4C1E0205F5E7AF4EB81D391EBB /* SDL_pixels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_pixels.h; sourceTree = "<group>"; };
+		16323D83259C09A8C299A701773EEF8F /* SDL_test_compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_compare.h; sourceTree = "<group>"; };
+		1666DC8F8EB1EB3971D1CBE00CD95D92 /* SDL_opengles2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2.h; sourceTree = "<group>"; };
+		22B70FD498F519184271D5FA8748C3BE /* SDL_copying.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_copying.h; sourceTree = "<group>"; };
+		26A631B09B6D7A8F5A7BDA1CFFEE76DC /* SDL_test_crc32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_crc32.h; sourceTree = "<group>"; };
+		275245D526D0DEE15314B5D43971A88F /* SDL_test_memory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_memory.h; sourceTree = "<group>"; };
+		2DBDA875F6F0D74460C4C7D97FE36178 /* SDL_timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_timer.h; sourceTree = "<group>"; };
+		33C21C738FFB954A96B463AB45958406 /* SDL_endian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_endian.h; sourceTree = "<group>"; };
+		36658E3511CF3EE865A3764BAE1FE361 /* SDL_test_fuzzer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_fuzzer.h; sourceTree = "<group>"; };
+		397009CB39224A97B9D5137D68DA4FC9 /* SDL_config_pandora.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_pandora.h; sourceTree = "<group>"; };
+		398935B582735FC02A88730FA99DE44A /* libSDL2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSDL2.a; path = SDL2/Library/libSDL2.a; sourceTree = "<group>"; };
+		3BC3C0466EE514C9E1DAB43884994E56 /* SDL_test.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test.h; sourceTree = "<group>"; };
+		3D4B105B160C1BE436EBF602565FA20F /* SDL_clipboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_clipboard.h; sourceTree = "<group>"; };
+		422A46D8413F0D7F8A81C57DB3581AAC /* SDL_audio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_audio.h; sourceTree = "<group>"; };
+		432707981356BE05451B5443AAAE9855 /* SDL_gesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_gesture.h; sourceTree = "<group>"; };
+		45A8E3D03EDFCE4A2EB136CA8B1195F3 /* SDL_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_types.h; sourceTree = "<group>"; };
+		47A463974AF2E825F1AE08265BC0C5CE /* SDL_haptic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_haptic.h; sourceTree = "<group>"; };
+		4B753916B48701EA1737DA81B8213E25 /* SDL_error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_error.h; sourceTree = "<group>"; };
+		51230C112EF482F45BDB2BD3249104F9 /* SDL_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config.h; sourceTree = "<group>"; };
+		531B94F33061FD2011CCFA096087550F /* SDL_quit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_quit.h; sourceTree = "<group>"; };
+		55D975FDC043FB4758D0A2684A9C2625 /* SDL_name.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_name.h; sourceTree = "<group>"; };
+		5923ED56D51C8AA350E09D62A5C8624D /* SDL_test_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_common.h; sourceTree = "<group>"; };
+		5946E558CA59FD8DD566E8F7C9CD4F0E /* Pods-SDL2.OC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDL2.OC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59C0867E0980F57412A6BE4BE99710CA /* Pods-SDL2.OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDL2.OC.debug.xcconfig"; sourceTree = "<group>"; };
+		5C3F917D3062AF9623DDCEBCFFBFC560 /* SDL_config_android.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_android.h; sourceTree = "<group>"; };
+		5FF142354CE74839D729927D12EFB2C5 /* SDL_opengl_glext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_opengl_glext.h; sourceTree = "<group>"; };
+		6393BD3355FFEF74E43E4F3249285ABE /* close_code.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = close_code.h; sourceTree = "<group>"; };
+		66A2F38A3EB63B9E926E0C4D46C80E91 /* Pods_SDL2_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDL2_OC.framework; path = "Pods-SDL2.OC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3E516BF8C23581B1B96922D7603EBF /* SDL_blendmode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_blendmode.h; sourceTree = "<group>"; };
+		6F4FF7D04699EE123BCD0581BF4D4D76 /* Pods-SDL2.OC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDL2.OC-umbrella.h"; sourceTree = "<group>"; };
+		726591982BE341A1DD0CC74406EC4E6B /* SDL_shape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_shape.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77C12EEC8602B6FD8F422EC168C60973 /* SDL_messagebox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_messagebox.h; sourceTree = "<group>"; };
+		7D98BD45DF5B3EAAF570C03D02665F66 /* SDL_main.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_main.h; sourceTree = "<group>"; };
+		7E259BA108826EBDB7B7372032743031 /* SDL_rwops.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_rwops.h; sourceTree = "<group>"; };
+		819FB8052CC72E66729D843B397669FE /* Pods-SDL2.OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDL2.OC-dummy.m"; sourceTree = "<group>"; };
+		84555A9DEDC5E029F1A1FB1F71B6342A /* SDL_opengles2_gl2ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2_gl2ext.h; sourceTree = "<group>"; };
+		8D23B59662BF3A48E3D0CA5846A6CEB8 /* SDL_system.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_system.h; sourceTree = "<group>"; };
+		8F0D3B2BBDFD3CFCACD636CBB5DAED01 /* SDL_sensor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_sensor.h; sourceTree = "<group>"; };
+		923AEF4177255B931E62AF4E82EB8876 /* SDL_mouse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_mouse.h; sourceTree = "<group>"; };
+		93B240209BEF1DA2B1E035FA962E8B07 /* SDL_keycode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_keycode.h; sourceTree = "<group>"; };
+		95092FCB6DF5737144BDCB83D98C56EB /* SDL_locale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_locale.h; sourceTree = "<group>"; };
+		951E16FA3CC1B11F1291C31A7286C35B /* SDL_rect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_rect.h; sourceTree = "<group>"; };
+		98FEB57317F27C712EB8B96301A2D127 /* SDL_touch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_touch.h; sourceTree = "<group>"; };
+		9B31C7D4C93F6761B25C2A9A5D2EE6A0 /* begin_code.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = begin_code.h; sourceTree = "<group>"; };
+		9B8F76B5459DA50FAAA85D9AB4048CD1 /* SDL_cpuinfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_cpuinfo.h; sourceTree = "<group>"; };
+		9C518D6EFA474E1E19CDCFE383A1D117 /* SDL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL.h; sourceTree = "<group>"; };
+		9D8AE249894A940780D600F470432FAE /* SDL_metal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_metal.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A111A52DC120AA70F547B0DC32D3307E /* SDL2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDL2.release.xcconfig; sourceTree = "<group>"; };
+		A2AA4E1A166E80C98F82EAE47CF7216D /* SDL_config_winrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_winrt.h; sourceTree = "<group>"; };
+		A34F823F3D00656DD945F9B603C359CD /* SDL_config_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_os2.h; sourceTree = "<group>"; };
+		A84DC36259995532EF25FB8EAA727C2F /* SDL_opengles2_khrplatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2_khrplatform.h; sourceTree = "<group>"; };
+		A990BF0D93C96D945345CABD42E9E4C3 /* SDL_test_font.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_font.h; sourceTree = "<group>"; };
+		A9A4910400C9E31822A8BD40B0CFFC7F /* SDL_atomic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_atomic.h; sourceTree = "<group>"; };
+		AAB5DAE998A4BD25741379CF3EA13728 /* SDL_revision.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_revision.h; sourceTree = "<group>"; };
+		ABC1324CCF07787BA6A6C2A0B2C3618C /* SDL_config_minimal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_minimal.h; sourceTree = "<group>"; };
+		AE11283032A3D96E5CFD019E1BB8221F /* SDL_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_version.h; sourceTree = "<group>"; };
+		B035795AD89CF0484378DE18E4A78444 /* SDL_hints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_hints.h; sourceTree = "<group>"; };
+		B0F5334B8C7427499310B7D5BB8E16DC /* SDL_vulkan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_vulkan.h; sourceTree = "<group>"; };
+		B623358F6180C95F43ADFDEDA6133CF2 /* SDL_config_windows.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_windows.h; sourceTree = "<group>"; };
+		BB96535E7FA8091245B0E93BEE721A05 /* SDL_keyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_keyboard.h; sourceTree = "<group>"; };
+		BB9B50EB1F8839A9EEDDBCF5191E2C55 /* SDL_power.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_power.h; sourceTree = "<group>"; };
+		BFD8CF408CFD5FF8FDAADB0108825D51 /* SDL_config_psp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_psp.h; sourceTree = "<group>"; };
+		C196E643C0114DBC1B52EAE1B19EA848 /* SDL_filesystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_filesystem.h; sourceTree = "<group>"; };
+		C3627B5009EEBA93FBF96EAA6EC96922 /* SDL_test_random.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_random.h; sourceTree = "<group>"; };
+		C42111AC0D516BD6BCE46978881825F3 /* SDL_egl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_egl.h; sourceTree = "<group>"; };
+		C4E58FC200F9A540DD97E8E7A5E3DBE7 /* SDL_stdinc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_stdinc.h; sourceTree = "<group>"; };
+		C5B79B6798CF78DD439A49EE98F79D9D /* SDL_opengles2_gl2platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2_gl2platform.h; sourceTree = "<group>"; };
+		C5FB79937481002E9A84783287F6CC05 /* SDL_surface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_surface.h; sourceTree = "<group>"; };
+		C61E4F95F3E5CADC4CC7394510F11B8E /* SDL_render.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_render.h; sourceTree = "<group>"; };
+		C7DB2E723A62863CDC250E995C3D2452 /* SDL_loadso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_loadso.h; sourceTree = "<group>"; };
+		CD88C0917783B69102D68DAEC4B55CF8 /* SDL_video.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_video.h; sourceTree = "<group>"; };
+		CDFBE3744B301F2C00B2EFF994862175 /* Pods-SDL2.OC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDL2.OC.modulemap"; sourceTree = "<group>"; };
+		D13AC94C1798C59623355B3C0E307BDA /* SDL2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL2.h; sourceTree = "<group>"; };
+		D7794D5566D17D8C989A28713D1098F0 /* SDL2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDL2.debug.xcconfig; sourceTree = "<group>"; };
+		D8872BA53726EDCC97A67480EB999FED /* SDL_assert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_assert.h; sourceTree = "<group>"; };
+		D993FEA6FF2195BB10BCF00046CAA7EC /* SDL_opengles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_opengles.h; sourceTree = "<group>"; };
+		DE20FD91A389EF9785B84B0C5A7832FB /* SDL_test_log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_log.h; sourceTree = "<group>"; };
+		DFD398534C518F1586283EEA03FB98E2 /* SDL_opengl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_opengl.h; sourceTree = "<group>"; };
+		E08E31592A58CAAC29054A681D3E55B9 /* SDL_platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_platform.h; sourceTree = "<group>"; };
+		E0F4B18CE06E8C135F8472CF661610D7 /* SDL_test_assert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_assert.h; sourceTree = "<group>"; };
+		E4E2AF312FD4E560CB7B6CB00785C932 /* SDL_test_images.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_images.h; sourceTree = "<group>"; };
+		E5788AD3FBD11F079EA0AE51EDA458E2 /* SDL_test_md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_md5.h; sourceTree = "<group>"; };
+		ECC7D90DD09FE7EE87E8170698F6A759 /* SDL_bits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_bits.h; sourceTree = "<group>"; };
+		ECDABF4B7A87F9CB798952419360E3CA /* SDL_config_wiz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_wiz.h; sourceTree = "<group>"; };
+		EE2375EDD9ED8FEF225B45BE84A2819B /* SDL_opengles2_gl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2_gl2.h; sourceTree = "<group>"; };
+		F34AA0DBF794130B6E4CE47F7B20C0AC /* SDL_scancode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_scancode.h; sourceTree = "<group>"; };
+		F38B968DC78D0C3C1D8AFC86A5123DB8 /* Pods-SDL2.OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDL2.OC.release.xcconfig"; sourceTree = "<group>"; };
+		F6DE15508AA4BD2EA4D9245503956435 /* SDL2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDL2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F835175DABC6C58A46BDAF98A92C4E43 /* SDL_misc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_misc.h; sourceTree = "<group>"; };
+		F9E565BB73F53371E31D1EA66E548D6D /* SDL_thread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_thread.h; sourceTree = "<group>"; };
+		F9FFCF1A15A3FA05D4272959BC867E34 /* SDL_joystick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_joystick.h; sourceTree = "<group>"; };
+		FAEB2642FB5F0CA7833DB604A32E5611 /* SDL_mutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_mutex.h; sourceTree = "<group>"; };
+		FB52FEB2FEF821320BACC56687122397 /* SDL_syswm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_syswm.h; sourceTree = "<group>"; };
+		FBDF8572FB0BA0911E78ED0A11DD0584 /* Pods-SDL2.OC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDL2.OC-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDE374422E6D95FF797EAC414AD90375 /* SDL_events.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_events.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1707E0FF5D808C0B5C0C660CA1FDE64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6D8876D9DB500DB13B6D651E157D33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A64B37E1DD1B5E20F458529716D79D4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F6DE15508AA4BD2EA4D9245503956435 /* SDL2.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1B8F75D703F54F4FFA8625320F8E069F /* SDL2 */ = {
+			isa = PBXGroup;
+			children = (
+				334AF6263D12BE08BA7C362E1258DB2C /* Frameworks */,
+				C4CC7A8E51F50909727E5E05448E85F3 /* Header */,
+				68802FB576A55974F9FA985FD445B4A6 /* Include */,
+				0A64B37E1DD1B5E20F458529716D79D4 /* Pod */,
+				43704615899E13B02F300653CDEBD043 /* Support Files */,
+			);
+			name = SDL2;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		317F459900347F2E97ACADEFB4F4C570 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D91D2D3B24CBECD02DDB5F85CA6A345 /* Pods-SDL2.OC */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		334AF6263D12BE08BA7C362E1258DB2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				398935B582735FC02A88730FA99DE44A /* libSDL2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43704615899E13B02F300653CDEBD043 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7794D5566D17D8C989A28713D1098F0 /* SDL2.debug.xcconfig */,
+				A111A52DC120AA70F547B0DC32D3307E /* SDL2.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "SDL2.OC/Pods/Target Support Files/SDL2";
+			sourceTree = "<group>";
+		};
+		536593E6ADAADB93BFFB34AD4CE6B9FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66A2F38A3EB63B9E926E0C4D46C80E91 /* Pods_SDL2_OC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		68802FB576A55974F9FA985FD445B4A6 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				9B31C7D4C93F6761B25C2A9A5D2EE6A0 /* begin_code.h */,
+				6393BD3355FFEF74E43E4F3249285ABE /* close_code.h */,
+				9C518D6EFA474E1E19CDCFE383A1D117 /* SDL.h */,
+				D8872BA53726EDCC97A67480EB999FED /* SDL_assert.h */,
+				A9A4910400C9E31822A8BD40B0CFFC7F /* SDL_atomic.h */,
+				422A46D8413F0D7F8A81C57DB3581AAC /* SDL_audio.h */,
+				ECC7D90DD09FE7EE87E8170698F6A759 /* SDL_bits.h */,
+				6C3E516BF8C23581B1B96922D7603EBF /* SDL_blendmode.h */,
+				3D4B105B160C1BE436EBF602565FA20F /* SDL_clipboard.h */,
+				51230C112EF482F45BDB2BD3249104F9 /* SDL_config.h */,
+				5C3F917D3062AF9623DDCEBCFFBFC560 /* SDL_config_android.h */,
+				0CD117F03DDA8911332BFD896565384A /* SDL_config_iphoneos.h */,
+				07A3E61CDBCBEDB4ED2464D6B05228CF /* SDL_config_macosx.h */,
+				ABC1324CCF07787BA6A6C2A0B2C3618C /* SDL_config_minimal.h */,
+				A34F823F3D00656DD945F9B603C359CD /* SDL_config_os2.h */,
+				397009CB39224A97B9D5137D68DA4FC9 /* SDL_config_pandora.h */,
+				BFD8CF408CFD5FF8FDAADB0108825D51 /* SDL_config_psp.h */,
+				B623358F6180C95F43ADFDEDA6133CF2 /* SDL_config_windows.h */,
+				A2AA4E1A166E80C98F82EAE47CF7216D /* SDL_config_winrt.h */,
+				ECDABF4B7A87F9CB798952419360E3CA /* SDL_config_wiz.h */,
+				22B70FD498F519184271D5FA8748C3BE /* SDL_copying.h */,
+				9B8F76B5459DA50FAAA85D9AB4048CD1 /* SDL_cpuinfo.h */,
+				C42111AC0D516BD6BCE46978881825F3 /* SDL_egl.h */,
+				33C21C738FFB954A96B463AB45958406 /* SDL_endian.h */,
+				4B753916B48701EA1737DA81B8213E25 /* SDL_error.h */,
+				FDE374422E6D95FF797EAC414AD90375 /* SDL_events.h */,
+				C196E643C0114DBC1B52EAE1B19EA848 /* SDL_filesystem.h */,
+				06BE9A6B081CFE45F2025D1AFF43DF54 /* SDL_gamecontroller.h */,
+				432707981356BE05451B5443AAAE9855 /* SDL_gesture.h */,
+				47A463974AF2E825F1AE08265BC0C5CE /* SDL_haptic.h */,
+				B035795AD89CF0484378DE18E4A78444 /* SDL_hints.h */,
+				F9FFCF1A15A3FA05D4272959BC867E34 /* SDL_joystick.h */,
+				BB96535E7FA8091245B0E93BEE721A05 /* SDL_keyboard.h */,
+				93B240209BEF1DA2B1E035FA962E8B07 /* SDL_keycode.h */,
+				C7DB2E723A62863CDC250E995C3D2452 /* SDL_loadso.h */,
+				95092FCB6DF5737144BDCB83D98C56EB /* SDL_locale.h */,
+				0CB27B1ABD3AB1D236F4EF076F0BEBEB /* SDL_log.h */,
+				7D98BD45DF5B3EAAF570C03D02665F66 /* SDL_main.h */,
+				77C12EEC8602B6FD8F422EC168C60973 /* SDL_messagebox.h */,
+				9D8AE249894A940780D600F470432FAE /* SDL_metal.h */,
+				F835175DABC6C58A46BDAF98A92C4E43 /* SDL_misc.h */,
+				923AEF4177255B931E62AF4E82EB8876 /* SDL_mouse.h */,
+				FAEB2642FB5F0CA7833DB604A32E5611 /* SDL_mutex.h */,
+				55D975FDC043FB4758D0A2684A9C2625 /* SDL_name.h */,
+				DFD398534C518F1586283EEA03FB98E2 /* SDL_opengl.h */,
+				5FF142354CE74839D729927D12EFB2C5 /* SDL_opengl_glext.h */,
+				D993FEA6FF2195BB10BCF00046CAA7EC /* SDL_opengles.h */,
+				1666DC8F8EB1EB3971D1CBE00CD95D92 /* SDL_opengles2.h */,
+				EE2375EDD9ED8FEF225B45BE84A2819B /* SDL_opengles2_gl2.h */,
+				84555A9DEDC5E029F1A1FB1F71B6342A /* SDL_opengles2_gl2ext.h */,
+				C5B79B6798CF78DD439A49EE98F79D9D /* SDL_opengles2_gl2platform.h */,
+				A84DC36259995532EF25FB8EAA727C2F /* SDL_opengles2_khrplatform.h */,
+				1230DA4C1E0205F5E7AF4EB81D391EBB /* SDL_pixels.h */,
+				E08E31592A58CAAC29054A681D3E55B9 /* SDL_platform.h */,
+				BB9B50EB1F8839A9EEDDBCF5191E2C55 /* SDL_power.h */,
+				531B94F33061FD2011CCFA096087550F /* SDL_quit.h */,
+				951E16FA3CC1B11F1291C31A7286C35B /* SDL_rect.h */,
+				C61E4F95F3E5CADC4CC7394510F11B8E /* SDL_render.h */,
+				AAB5DAE998A4BD25741379CF3EA13728 /* SDL_revision.h */,
+				7E259BA108826EBDB7B7372032743031 /* SDL_rwops.h */,
+				F34AA0DBF794130B6E4CE47F7B20C0AC /* SDL_scancode.h */,
+				8F0D3B2BBDFD3CFCACD636CBB5DAED01 /* SDL_sensor.h */,
+				726591982BE341A1DD0CC74406EC4E6B /* SDL_shape.h */,
+				C4E58FC200F9A540DD97E8E7A5E3DBE7 /* SDL_stdinc.h */,
+				C5FB79937481002E9A84783287F6CC05 /* SDL_surface.h */,
+				8D23B59662BF3A48E3D0CA5846A6CEB8 /* SDL_system.h */,
+				FB52FEB2FEF821320BACC56687122397 /* SDL_syswm.h */,
+				3BC3C0466EE514C9E1DAB43884994E56 /* SDL_test.h */,
+				E0F4B18CE06E8C135F8472CF661610D7 /* SDL_test_assert.h */,
+				5923ED56D51C8AA350E09D62A5C8624D /* SDL_test_common.h */,
+				16323D83259C09A8C299A701773EEF8F /* SDL_test_compare.h */,
+				26A631B09B6D7A8F5A7BDA1CFFEE76DC /* SDL_test_crc32.h */,
+				A990BF0D93C96D945345CABD42E9E4C3 /* SDL_test_font.h */,
+				36658E3511CF3EE865A3764BAE1FE361 /* SDL_test_fuzzer.h */,
+				066086538C9B28D3DC661036E3697F62 /* SDL_test_harness.h */,
+				E4E2AF312FD4E560CB7B6CB00785C932 /* SDL_test_images.h */,
+				DE20FD91A389EF9785B84B0C5A7832FB /* SDL_test_log.h */,
+				E5788AD3FBD11F079EA0AE51EDA458E2 /* SDL_test_md5.h */,
+				275245D526D0DEE15314B5D43971A88F /* SDL_test_memory.h */,
+				C3627B5009EEBA93FBF96EAA6EC96922 /* SDL_test_random.h */,
+				F9E565BB73F53371E31D1EA66E548D6D /* SDL_thread.h */,
+				2DBDA875F6F0D74460C4C7D97FE36178 /* SDL_timer.h */,
+				98FEB57317F27C712EB8B96301A2D127 /* SDL_touch.h */,
+				45A8E3D03EDFCE4A2EB136CA8B1195F3 /* SDL_types.h */,
+				AE11283032A3D96E5CFD019E1BB8221F /* SDL_version.h */,
+				CD88C0917783B69102D68DAEC4B55CF8 /* SDL_video.h */,
+				B0F5334B8C7427499310B7D5BB8E16DC /* SDL_vulkan.h */,
+			);
+			name = Include;
+			path = SDL2/Include;
+			sourceTree = "<group>";
+		};
+		6D91D2D3B24CBECD02DDB5F85CA6A345 /* Pods-SDL2.OC */ = {
+			isa = PBXGroup;
+			children = (
+				CDFBE3744B301F2C00B2EFF994862175 /* Pods-SDL2.OC.modulemap */,
+				5946E558CA59FD8DD566E8F7C9CD4F0E /* Pods-SDL2.OC-acknowledgements.markdown */,
+				FBDF8572FB0BA0911E78ED0A11DD0584 /* Pods-SDL2.OC-acknowledgements.plist */,
+				819FB8052CC72E66729D843B397669FE /* Pods-SDL2.OC-dummy.m */,
+				03BA3FCBFAC13317AE9A4566DE3A1ACF /* Pods-SDL2.OC-Info.plist */,
+				6F4FF7D04699EE123BCD0581BF4D4D76 /* Pods-SDL2.OC-umbrella.h */,
+				59C0867E0980F57412A6BE4BE99710CA /* Pods-SDL2.OC.debug.xcconfig */,
+				F38B968DC78D0C3C1D8AFC86A5123DB8 /* Pods-SDL2.OC.release.xcconfig */,
+			);
+			name = "Pods-SDL2.OC";
+			path = "Target Support Files/Pods-SDL2.OC";
+			sourceTree = "<group>";
+		};
+		9C0A9873D2FBFF0527BE868128D8D0B8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B8F75D703F54F4FFA8625320F8E069F /* SDL2 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C4CC7A8E51F50909727E5E05448E85F3 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				D13AC94C1798C59623355B3C0E307BDA /* SDL2.h */,
+			);
+			name = Header;
+			path = SDL2/Header;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9C0A9873D2FBFF0527BE868128D8D0B8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				536593E6ADAADB93BFFB34AD4CE6B9FB /* Products */,
+				317F459900347F2E97ACADEFB4F4C570 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DB996723F9E99398735E6697F355778D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B1FC3880986963A4420E46E99D4246 /* Pods-SDL2.OC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		079F4625EF9C79C6822D3B02F24B587D /* Pods-SDL2.OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21E9FE5239BE42881B9338E500F1D20D /* Build configuration list for PBXNativeTarget "Pods-SDL2.OC" */;
+			buildPhases = (
+				DB996723F9E99398735E6697F355778D /* Headers */,
+				C84E5B2C88890ED6545161D384067447 /* Sources */,
+				F1707E0FF5D808C0B5C0C660CA1FDE64 /* Frameworks */,
+				200D9CFCF12BB89CF661104DD65052B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AA01EA3DBC7E171BAB4E5A31253EB6C /* PBXTargetDependency */,
+			);
+			name = "Pods-SDL2.OC";
+			productName = "Pods-SDL2.OC";
+			productReference = 66A2F38A3EB63B9E926E0C4D46C80E91 /* Pods_SDL2_OC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 536593E6ADAADB93BFFB34AD4CE6B9FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				079F4625EF9C79C6822D3B02F24B587D /* Pods-SDL2.OC */,
+				394C0AF0E8F9A34D316B5FDB46CBDC9C /* SDL2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		200D9CFCF12BB89CF661104DD65052B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C84E5B2C88890ED6545161D384067447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1B4BC0A8DE6B2BFD6746C758D7114D /* Pods-SDL2.OC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AA01EA3DBC7E171BAB4E5A31253EB6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDL2;
+			target = 394C0AF0E8F9A34D316B5FDB46CBDC9C /* SDL2 */;
+			targetProxy = 2B62B02724B9563D88E1F947CD7F83DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D7735A26EA9926CC07824B1C62A6C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A111A52DC120AA70F547B0DC32D3307E /* SDL2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3223E728893E2168F43658ED28BAFE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C0867E0980F57412A6BE4BE99710CA /* Pods-SDL2.OC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDL2.OC/Pods-SDL2.OC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDL2.OC/Pods-SDL2.OC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B0E59B73E914196517DD9BBEF27CCCE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7794D5566D17D8C989A28713D1098F0 /* SDL2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4EB2314C255C9BBDE41871B445A0519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38B968DC78D0C3C1D8AFC86A5123DB8 /* Pods-SDL2.OC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDL2.OC/Pods-SDL2.OC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDL2.OC/Pods-SDL2.OC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21E9FE5239BE42881B9338E500F1D20D /* Build configuration list for PBXNativeTarget "Pods-SDL2.OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3223E728893E2168F43658ED28BAFE48 /* Debug */,
+				F4EB2314C255C9BBDE41871B445A0519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605501BDE812FBE3446205D77DF3D4C2 /* Build configuration list for PBXAggregateTarget "SDL2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E59B73E914196517DD9BBEF27CCCE7 /* Debug */,
+				2D7735A26EA9926CC07824B1C62A6C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		394C0AF0E8F9A34D316B5FDB46CBDC9C /* SDL2 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 605501BDE812FBE3446205D77DF3D4C2 /* Build configuration list for PBXAggregateTarget "SDL2" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SDL2;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		17812A8AECD254276E65CD20A9001E33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BB0B87F6F90AF90CA4D07302CD3434C2 /* Pods-SDL2.Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D7B181B6EA1515716274A9B658201C /* Pods-SDL2.Swift-dummy.m */; };
+		E521CB8EA26B429A1A596499E37E42E4 /* Pods-SDL2.Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9181E361F82DEDD0362D0586BA057A /* Pods-SDL2.Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38859B00D1B922B8E5433E89432AF637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 394C0AF0E8F9A34D316B5FDB46CBDC9C;
+			remoteInfo = SDL2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021C15180716FB310E24C7B863552150 /* SDL_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_version.h; sourceTree = "<group>"; };
+		0453D7DB07CBE65D893C11E1B5410A16 /* SDL_assert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_assert.h; sourceTree = "<group>"; };
+		057B5D8B5BCC7B4149B9BEF7886CDE0B /* SDL_haptic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_haptic.h; sourceTree = "<group>"; };
+		08FD5BA801D71517807ACA1748B09AF8 /* SDL_test_harness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_harness.h; sourceTree = "<group>"; };
+		0C80D3B7809FA69586739810E6A0EFD8 /* SDL_opengles2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2.h; sourceTree = "<group>"; };
+		0D6BD05AA2C40E5D8B31A803DE9C88F9 /* SDL_config_android.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_android.h; sourceTree = "<group>"; };
+		0D9E492BABF3DF21A8B1C4BBBBA322EA /* SDL_test_fuzzer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_fuzzer.h; sourceTree = "<group>"; };
+		0E2C0D4416A3C9EBEF13476C831AA98A /* SDL_gamecontroller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_gamecontroller.h; sourceTree = "<group>"; };
+		0F178B291AC9F96790737AD843F2D3BC /* SDL_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config.h; sourceTree = "<group>"; };
+		101CB1D3F57F167205CC53B6AD47A123 /* SDL_system.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_system.h; sourceTree = "<group>"; };
+		11B971D8AEBBDAF7CE454A00FC033869 /* SDL_opengl_glext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_opengl_glext.h; sourceTree = "<group>"; };
+		159B3123D9B04DFD8094A65EB186E705 /* SDL_sensor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_sensor.h; sourceTree = "<group>"; };
+		15B6C9D3B9EFB427823F58D74D7A3EE6 /* SDL_vulkan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_vulkan.h; sourceTree = "<group>"; };
+		186C3D17D63A217D43F77A283DB027F6 /* SDL_endian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_endian.h; sourceTree = "<group>"; };
+		193FF81F66BB5183491A9BA5D544F002 /* SDL_config_windows.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_windows.h; sourceTree = "<group>"; };
+		1A9A1056374FB3AAEA1E8D34E0D00D13 /* SDL_blendmode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_blendmode.h; sourceTree = "<group>"; };
+		1AE36F40CCDBADDEF055A4BB05F280DD /* SDL_opengles2_gl2platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2_gl2platform.h; sourceTree = "<group>"; };
+		1D2A165B113479BEFFC585395F11E326 /* SDL_opengl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_opengl.h; sourceTree = "<group>"; };
+		1D846B06C60351ECA2E7AA2C004C4E68 /* SDL_shape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_shape.h; sourceTree = "<group>"; };
+		1F93C24B23B359B8654CCF41C5DF9E4B /* SDL_test_random.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_random.h; sourceTree = "<group>"; };
+		24A5BB6B4D21CA0DE837F1CC79A7A8B6 /* SDL2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDL2.debug.xcconfig; sourceTree = "<group>"; };
+		2B9C4592130C7EC8F1B39530DF9FAD4B /* SDL_config_pandora.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_pandora.h; sourceTree = "<group>"; };
+		2E7F265B565593C4FACF2E4AE1EAFBBB /* begin_code.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = begin_code.h; sourceTree = "<group>"; };
+		2EE71325BD461E736D1BF6050195952E /* SDL_clipboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_clipboard.h; sourceTree = "<group>"; };
+		353DE1F667F9138FF8821148EA871CB1 /* Pods-SDL2.Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDL2.Swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		366BEC0AA0DF4B79A8CA0482813D416E /* SDL_stdinc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_stdinc.h; sourceTree = "<group>"; };
+		36A6AD321A57214EBF2B55840C7888AA /* SDL_test_log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_log.h; sourceTree = "<group>"; };
+		3B3A82A6AF6D41A56F20CE1B107018D8 /* SDL_test_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_common.h; sourceTree = "<group>"; };
+		3B51B056790E041DC618F83D607D72C3 /* SDL_opengles2_gl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2_gl2.h; sourceTree = "<group>"; };
+		3BE84FBBB0797CDF22AE102467699A63 /* SDL_quit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_quit.h; sourceTree = "<group>"; };
+		3D2E0C17E7DF585BEAA25635FA1EEED3 /* Pods-SDL2.Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDL2.Swift-Info.plist"; sourceTree = "<group>"; };
+		415B8A7613275691CF689355459089B6 /* SDL_keycode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_keycode.h; sourceTree = "<group>"; };
+		4240234C0A9385BEB4B952639B8CB09C /* SDL_hints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_hints.h; sourceTree = "<group>"; };
+		43741BA0BBE4FCF886E610493FF2A09A /* SDL_video.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_video.h; sourceTree = "<group>"; };
+		4B00A22126D09E523C90CE556396530A /* SDL_test_assert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_assert.h; sourceTree = "<group>"; };
+		522432655398C2B15375BF716E15EFD3 /* SDL_config_iphoneos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_iphoneos.h; sourceTree = "<group>"; };
+		52ED7800AC07D0D4EBAE77D60D627259 /* libSDL2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSDL2.a; path = SDL2/Library/libSDL2.a; sourceTree = "<group>"; };
+		58329CE9CEF3C5C9F8726F969AEF7CF6 /* SDL_egl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_egl.h; sourceTree = "<group>"; };
+		5CE51F7D1E75390D4EE56181A386202D /* SDL_log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_log.h; sourceTree = "<group>"; };
+		6197D15142970063071722A354950619 /* SDL_touch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_touch.h; sourceTree = "<group>"; };
+		6229D614A6BC82A8A52971C2530CFD5A /* SDL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL.h; sourceTree = "<group>"; };
+		6317DDFF73E7BF19BE9674A786CC682A /* SDL_error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_error.h; sourceTree = "<group>"; };
+		635938299C5E550C6425409C5037450F /* SDL_config_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_os2.h; sourceTree = "<group>"; };
+		66918AA8B8C46CC410F64821E2384CC6 /* SDL_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_types.h; sourceTree = "<group>"; };
+		66F5C9F12093A13B4972559C55FE1E9F /* close_code.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = close_code.h; sourceTree = "<group>"; };
+		6B7F2FAB8B7684339AD039A85F5E9B9F /* SDL_platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_platform.h; sourceTree = "<group>"; };
+		6FB9510AD506B90D8472C01A109B79F6 /* SDL_config_wiz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_wiz.h; sourceTree = "<group>"; };
+		7156DD64757F64C5E0460FC3D83F5952 /* SDL_config_psp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_psp.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73D7B181B6EA1515716274A9B658201C /* Pods-SDL2.Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDL2.Swift-dummy.m"; sourceTree = "<group>"; };
+		776B7336978C1080174A26C809BB538D /* Pods-SDL2.Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDL2.Swift.release.xcconfig"; sourceTree = "<group>"; };
+		7B9F9A8B504B75BB1488446FE6114C30 /* SDL_test_crc32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_crc32.h; sourceTree = "<group>"; };
+		7EA33F803282A04AEDBB00325C52E0C4 /* SDL_metal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_metal.h; sourceTree = "<group>"; };
+		8B1EB43F52F0A2F56B2F7783C8720C11 /* SDL_mouse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_mouse.h; sourceTree = "<group>"; };
+		9082522766C9D89C1E02C0E043E7251B /* SDL_rwops.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_rwops.h; sourceTree = "<group>"; };
+		921A718AE245B620E7F0CB4C9C924299 /* Pods_SDL2_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDL2_Swift.framework; path = "Pods-SDL2.Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		933318F3146B9244EEC4C12477CF09FF /* SDL_test_images.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_images.h; sourceTree = "<group>"; };
+		9415DD0A33869060A1C829EC89A58941 /* SDL_opengles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_opengles.h; sourceTree = "<group>"; };
+		957B1E55C783FF3AD07E035700AE54B9 /* SDL_test.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test.h; sourceTree = "<group>"; };
+		96C15CDCEAE775CEB92210FC67A3250A /* SDL_bits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_bits.h; sourceTree = "<group>"; };
+		9BA13DAF6A93A9CD237B1B610D94B80A /* SDL_joystick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_joystick.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1B403205B6E1CA991BF2413B275F487 /* SDL_power.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_power.h; sourceTree = "<group>"; };
+		A39F65C53E60F023D2E81C06FDDFD74C /* SDL_keyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_keyboard.h; sourceTree = "<group>"; };
+		A479B65B92328568212BC8E48D1B50C9 /* SDL_mutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_mutex.h; sourceTree = "<group>"; };
+		A6E26FDA65E764E35B861705EA6162A6 /* SDL_config_winrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_winrt.h; sourceTree = "<group>"; };
+		AA9181E361F82DEDD0362D0586BA057A /* Pods-SDL2.Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDL2.Swift-umbrella.h"; sourceTree = "<group>"; };
+		AD4D9CD22E14A32C61C806D03FCB937A /* Pods-SDL2.Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDL2.Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		B11D5D0967C5238B77EF2602F8B5C2C0 /* SDL_test_md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_md5.h; sourceTree = "<group>"; };
+		B3CC26F3C57BEA73F456BB9E2704E8E1 /* SDL_locale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_locale.h; sourceTree = "<group>"; };
+		B48E8B8034C5638ABDEDBED230669E54 /* SDL_name.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_name.h; sourceTree = "<group>"; };
+		B6AACF82C5C02A0B67BF5D60DCE590C5 /* Pods-SDL2.Swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDL2.Swift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B6B7C01ACD5746D5F0A4F3314DDDB7CD /* Pods-SDL2.Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDL2.Swift.modulemap"; sourceTree = "<group>"; };
+		BD2897740917CFB1CA29DF4194FF1BC2 /* SDL_test_font.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_font.h; sourceTree = "<group>"; };
+		BE0874A88F2A2ADC521585346E30D9F8 /* SDL_config_minimal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_minimal.h; sourceTree = "<group>"; };
+		C0D4E57078ACF9BC750F9C9CD70C096F /* SDL_gesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_gesture.h; sourceTree = "<group>"; };
+		C0D98BFA1CD5FBDA7E6B746C5C1BCFA8 /* SDL_config_macosx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_config_macosx.h; sourceTree = "<group>"; };
+		C1D8D30A9E378D41347CE8DBC16E2C8E /* SDL_timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_timer.h; sourceTree = "<group>"; };
+		C273F2B73808A1290326CB8FE3451E18 /* SDL_surface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_surface.h; sourceTree = "<group>"; };
+		C72B3DFBCA32CD0DDD694FAE99419866 /* SDL_pixels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_pixels.h; sourceTree = "<group>"; };
+		C9AEE819234A51234813A939017E15B5 /* SDL_events.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_events.h; sourceTree = "<group>"; };
+		CEFB79F02D905E5C3BB750D07E005253 /* SDL_filesystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_filesystem.h; sourceTree = "<group>"; };
+		D09932AA01AB08D7F12B4D5B0D2BFF53 /* SDL_copying.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_copying.h; sourceTree = "<group>"; };
+		D1E63FB4A797352C2EBC45235ED5849B /* SDL_main.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_main.h; sourceTree = "<group>"; };
+		D3B46BAA101D0560E60A7E23AB8A337B /* SDL_audio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_audio.h; sourceTree = "<group>"; };
+		D3B6748AC2A2C1DBFD1ED4CE1AC96F9F /* SDL_thread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_thread.h; sourceTree = "<group>"; };
+		D60B5E71154E717D60107F7DC4E25718 /* SDL_test_memory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_memory.h; sourceTree = "<group>"; };
+		DFEFB90F4F3EB7632D3381889BD2BD4E /* SDL_rect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_rect.h; sourceTree = "<group>"; };
+		E1F3DD7E9AF2C33852BA14CD20AE2F4F /* SDL_test_compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_test_compare.h; sourceTree = "<group>"; };
+		E2422DFD8C92094326FA2063D46A762B /* SDL_syswm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_syswm.h; sourceTree = "<group>"; };
+		E6CD4E24E7CC0DD5F927EBAFFCBE927A /* SDL_atomic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_atomic.h; sourceTree = "<group>"; };
+		F330DC7F3D6ECB78585290E992D1EA19 /* SDL_scancode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_scancode.h; sourceTree = "<group>"; };
+		F33B20416FDF65B4B8541122C3CFDD8F /* SDL_messagebox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_messagebox.h; sourceTree = "<group>"; };
+		F46F68D135C499195E5C290107641499 /* SDL_cpuinfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_cpuinfo.h; sourceTree = "<group>"; };
+		F4CF09BCFB8A46D6AEECB2D6E2B6CEAB /* SDL_revision.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_revision.h; sourceTree = "<group>"; };
+		F6A3ABA28BABBFBF0A97A8999FD71E43 /* SDL2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDL2.release.xcconfig; sourceTree = "<group>"; };
+		F717BD956494830F55F76BFC5961AEF7 /* SDL_render.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_render.h; sourceTree = "<group>"; };
+		F835025412CF546A1CF3D80CE08A3F1B /* SDL2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL2.h; sourceTree = "<group>"; };
+		F83DB83856921DB5662EE415651A47E3 /* SDL_loadso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_loadso.h; sourceTree = "<group>"; };
+		F95BC697ACB94E247607836AA826CB9B /* SDL_opengles2_khrplatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2_khrplatform.h; sourceTree = "<group>"; };
+		FCA14D1CC449A3592ED30FD29CC636EF /* SDL_misc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_misc.h; sourceTree = "<group>"; };
+		FCF519A6C0C96B0DD69CEE7044E0B2D6 /* SDL_opengles2_gl2ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2_gl2ext.h; sourceTree = "<group>"; };
+		FFEF46D40B9DE2B9F5DAE54E453B5CE9 /* SDL2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDL2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EED103D73D2A3D99D7F479E1CB5E8375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17812A8AECD254276E65CD20A9001E33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B198667BEACA3BE0CC1B770EB7619A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EAE4A2A2CDC1A309CEB188A276B7B42 /* Pods-SDL2.Swift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		47F60511B63ED49BB412F62774EC9A68 /* SDL2 */ = {
+			isa = PBXGroup;
+			children = (
+				EE2549A9C446819C24F52D8EBBE1D14D /* Frameworks */,
+				EDB206C1C2E91EA2F0C14D88AD4DA71C /* Header */,
+				C69B66AA2CAB156D38D99A0FB91AAF91 /* Include */,
+				5162B2A2EAB73F9ED0D8C6CE739C4C33 /* Pod */,
+				4C8FA1F306848FD05CDB614769DFD8AE /* Support Files */,
+			);
+			name = SDL2;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4C8FA1F306848FD05CDB614769DFD8AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24A5BB6B4D21CA0DE837F1CC79A7A8B6 /* SDL2.debug.xcconfig */,
+				F6A3ABA28BABBFBF0A97A8999FD71E43 /* SDL2.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "SDL2.Swift/Pods/Target Support Files/SDL2";
+			sourceTree = "<group>";
+		};
+		5162B2A2EAB73F9ED0D8C6CE739C4C33 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FFEF46D40B9DE2B9F5DAE54E453B5CE9 /* SDL2.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7EAE4A2A2CDC1A309CEB188A276B7B42 /* Pods-SDL2.Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B6B7C01ACD5746D5F0A4F3314DDDB7CD /* Pods-SDL2.Swift.modulemap */,
+				B6AACF82C5C02A0B67BF5D60DCE590C5 /* Pods-SDL2.Swift-acknowledgements.markdown */,
+				353DE1F667F9138FF8821148EA871CB1 /* Pods-SDL2.Swift-acknowledgements.plist */,
+				73D7B181B6EA1515716274A9B658201C /* Pods-SDL2.Swift-dummy.m */,
+				3D2E0C17E7DF585BEAA25635FA1EEED3 /* Pods-SDL2.Swift-Info.plist */,
+				AA9181E361F82DEDD0362D0586BA057A /* Pods-SDL2.Swift-umbrella.h */,
+				AD4D9CD22E14A32C61C806D03FCB937A /* Pods-SDL2.Swift.debug.xcconfig */,
+				776B7336978C1080174A26C809BB538D /* Pods-SDL2.Swift.release.xcconfig */,
+			);
+			name = "Pods-SDL2.Swift";
+			path = "Target Support Files/Pods-SDL2.Swift";
+			sourceTree = "<group>";
+		};
+		9C0A9873D2FBFF0527BE868128D8D0B8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47F60511B63ED49BB412F62774EC9A68 /* SDL2 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C69B66AA2CAB156D38D99A0FB91AAF91 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				2E7F265B565593C4FACF2E4AE1EAFBBB /* begin_code.h */,
+				66F5C9F12093A13B4972559C55FE1E9F /* close_code.h */,
+				6229D614A6BC82A8A52971C2530CFD5A /* SDL.h */,
+				0453D7DB07CBE65D893C11E1B5410A16 /* SDL_assert.h */,
+				E6CD4E24E7CC0DD5F927EBAFFCBE927A /* SDL_atomic.h */,
+				D3B46BAA101D0560E60A7E23AB8A337B /* SDL_audio.h */,
+				96C15CDCEAE775CEB92210FC67A3250A /* SDL_bits.h */,
+				1A9A1056374FB3AAEA1E8D34E0D00D13 /* SDL_blendmode.h */,
+				2EE71325BD461E736D1BF6050195952E /* SDL_clipboard.h */,
+				0F178B291AC9F96790737AD843F2D3BC /* SDL_config.h */,
+				0D6BD05AA2C40E5D8B31A803DE9C88F9 /* SDL_config_android.h */,
+				522432655398C2B15375BF716E15EFD3 /* SDL_config_iphoneos.h */,
+				C0D98BFA1CD5FBDA7E6B746C5C1BCFA8 /* SDL_config_macosx.h */,
+				BE0874A88F2A2ADC521585346E30D9F8 /* SDL_config_minimal.h */,
+				635938299C5E550C6425409C5037450F /* SDL_config_os2.h */,
+				2B9C4592130C7EC8F1B39530DF9FAD4B /* SDL_config_pandora.h */,
+				7156DD64757F64C5E0460FC3D83F5952 /* SDL_config_psp.h */,
+				193FF81F66BB5183491A9BA5D544F002 /* SDL_config_windows.h */,
+				A6E26FDA65E764E35B861705EA6162A6 /* SDL_config_winrt.h */,
+				6FB9510AD506B90D8472C01A109B79F6 /* SDL_config_wiz.h */,
+				D09932AA01AB08D7F12B4D5B0D2BFF53 /* SDL_copying.h */,
+				F46F68D135C499195E5C290107641499 /* SDL_cpuinfo.h */,
+				58329CE9CEF3C5C9F8726F969AEF7CF6 /* SDL_egl.h */,
+				186C3D17D63A217D43F77A283DB027F6 /* SDL_endian.h */,
+				6317DDFF73E7BF19BE9674A786CC682A /* SDL_error.h */,
+				C9AEE819234A51234813A939017E15B5 /* SDL_events.h */,
+				CEFB79F02D905E5C3BB750D07E005253 /* SDL_filesystem.h */,
+				0E2C0D4416A3C9EBEF13476C831AA98A /* SDL_gamecontroller.h */,
+				C0D4E57078ACF9BC750F9C9CD70C096F /* SDL_gesture.h */,
+				057B5D8B5BCC7B4149B9BEF7886CDE0B /* SDL_haptic.h */,
+				4240234C0A9385BEB4B952639B8CB09C /* SDL_hints.h */,
+				9BA13DAF6A93A9CD237B1B610D94B80A /* SDL_joystick.h */,
+				A39F65C53E60F023D2E81C06FDDFD74C /* SDL_keyboard.h */,
+				415B8A7613275691CF689355459089B6 /* SDL_keycode.h */,
+				F83DB83856921DB5662EE415651A47E3 /* SDL_loadso.h */,
+				B3CC26F3C57BEA73F456BB9E2704E8E1 /* SDL_locale.h */,
+				5CE51F7D1E75390D4EE56181A386202D /* SDL_log.h */,
+				D1E63FB4A797352C2EBC45235ED5849B /* SDL_main.h */,
+				F33B20416FDF65B4B8541122C3CFDD8F /* SDL_messagebox.h */,
+				7EA33F803282A04AEDBB00325C52E0C4 /* SDL_metal.h */,
+				FCA14D1CC449A3592ED30FD29CC636EF /* SDL_misc.h */,
+				8B1EB43F52F0A2F56B2F7783C8720C11 /* SDL_mouse.h */,
+				A479B65B92328568212BC8E48D1B50C9 /* SDL_mutex.h */,
+				B48E8B8034C5638ABDEDBED230669E54 /* SDL_name.h */,
+				1D2A165B113479BEFFC585395F11E326 /* SDL_opengl.h */,
+				11B971D8AEBBDAF7CE454A00FC033869 /* SDL_opengl_glext.h */,
+				9415DD0A33869060A1C829EC89A58941 /* SDL_opengles.h */,
+				0C80D3B7809FA69586739810E6A0EFD8 /* SDL_opengles2.h */,
+				3B51B056790E041DC618F83D607D72C3 /* SDL_opengles2_gl2.h */,
+				FCF519A6C0C96B0DD69CEE7044E0B2D6 /* SDL_opengles2_gl2ext.h */,
+				1AE36F40CCDBADDEF055A4BB05F280DD /* SDL_opengles2_gl2platform.h */,
+				F95BC697ACB94E247607836AA826CB9B /* SDL_opengles2_khrplatform.h */,
+				C72B3DFBCA32CD0DDD694FAE99419866 /* SDL_pixels.h */,
+				6B7F2FAB8B7684339AD039A85F5E9B9F /* SDL_platform.h */,
+				A1B403205B6E1CA991BF2413B275F487 /* SDL_power.h */,
+				3BE84FBBB0797CDF22AE102467699A63 /* SDL_quit.h */,
+				DFEFB90F4F3EB7632D3381889BD2BD4E /* SDL_rect.h */,
+				F717BD956494830F55F76BFC5961AEF7 /* SDL_render.h */,
+				F4CF09BCFB8A46D6AEECB2D6E2B6CEAB /* SDL_revision.h */,
+				9082522766C9D89C1E02C0E043E7251B /* SDL_rwops.h */,
+				F330DC7F3D6ECB78585290E992D1EA19 /* SDL_scancode.h */,
+				159B3123D9B04DFD8094A65EB186E705 /* SDL_sensor.h */,
+				1D846B06C60351ECA2E7AA2C004C4E68 /* SDL_shape.h */,
+				366BEC0AA0DF4B79A8CA0482813D416E /* SDL_stdinc.h */,
+				C273F2B73808A1290326CB8FE3451E18 /* SDL_surface.h */,
+				101CB1D3F57F167205CC53B6AD47A123 /* SDL_system.h */,
+				E2422DFD8C92094326FA2063D46A762B /* SDL_syswm.h */,
+				957B1E55C783FF3AD07E035700AE54B9 /* SDL_test.h */,
+				4B00A22126D09E523C90CE556396530A /* SDL_test_assert.h */,
+				3B3A82A6AF6D41A56F20CE1B107018D8 /* SDL_test_common.h */,
+				E1F3DD7E9AF2C33852BA14CD20AE2F4F /* SDL_test_compare.h */,
+				7B9F9A8B504B75BB1488446FE6114C30 /* SDL_test_crc32.h */,
+				BD2897740917CFB1CA29DF4194FF1BC2 /* SDL_test_font.h */,
+				0D9E492BABF3DF21A8B1C4BBBBA322EA /* SDL_test_fuzzer.h */,
+				08FD5BA801D71517807ACA1748B09AF8 /* SDL_test_harness.h */,
+				933318F3146B9244EEC4C12477CF09FF /* SDL_test_images.h */,
+				36A6AD321A57214EBF2B55840C7888AA /* SDL_test_log.h */,
+				B11D5D0967C5238B77EF2602F8B5C2C0 /* SDL_test_md5.h */,
+				D60B5E71154E717D60107F7DC4E25718 /* SDL_test_memory.h */,
+				1F93C24B23B359B8654CCF41C5DF9E4B /* SDL_test_random.h */,
+				D3B6748AC2A2C1DBFD1ED4CE1AC96F9F /* SDL_thread.h */,
+				C1D8D30A9E378D41347CE8DBC16E2C8E /* SDL_timer.h */,
+				6197D15142970063071722A354950619 /* SDL_touch.h */,
+				66918AA8B8C46CC410F64821E2384CC6 /* SDL_types.h */,
+				021C15180716FB310E24C7B863552150 /* SDL_version.h */,
+				43741BA0BBE4FCF886E610493FF2A09A /* SDL_video.h */,
+				15B6C9D3B9EFB427823F58D74D7A3EE6 /* SDL_vulkan.h */,
+			);
+			name = Include;
+			path = SDL2/Include;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9C0A9873D2FBFF0527BE868128D8D0B8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F7722EC803FA50F1AACFE5F3D3EB92FC /* Products */,
+				01B198667BEACA3BE0CC1B770EB7619A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDB206C1C2E91EA2F0C14D88AD4DA71C /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				F835025412CF546A1CF3D80CE08A3F1B /* SDL2.h */,
+			);
+			name = Header;
+			path = SDL2/Header;
+			sourceTree = "<group>";
+		};
+		EE2549A9C446819C24F52D8EBBE1D14D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52ED7800AC07D0D4EBAE77D60D627259 /* libSDL2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7722EC803FA50F1AACFE5F3D3EB92FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				921A718AE245B620E7F0CB4C9C924299 /* Pods_SDL2_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F9FBCE9990F5C74EBCEC40EE35E1F27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E521CB8EA26B429A1A596499E37E42E4 /* Pods-SDL2.Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		725456D1503A262E15A89D9AF1D390E7 /* Pods-SDL2.Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3EC550951B04FFCE4F51CC144DE5844 /* Build configuration list for PBXNativeTarget "Pods-SDL2.Swift" */;
+			buildPhases = (
+				2F9FBCE9990F5C74EBCEC40EE35E1F27 /* Headers */,
+				03BD412D133B3D41B663EFB8C56A40C5 /* Sources */,
+				EED103D73D2A3D99D7F479E1CB5E8375 /* Frameworks */,
+				2C72E79F14187EE528A4831D95E3665C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B16518AB37399934B74DCBDA86101E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-SDL2.Swift";
+			productName = "Pods-SDL2.Swift";
+			productReference = 921A718AE245B620E7F0CB4C9C924299 /* Pods_SDL2_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F7722EC803FA50F1AACFE5F3D3EB92FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				725456D1503A262E15A89D9AF1D390E7 /* Pods-SDL2.Swift */,
+				394C0AF0E8F9A34D316B5FDB46CBDC9C /* SDL2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C72E79F14187EE528A4831D95E3665C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03BD412D133B3D41B663EFB8C56A40C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0B87F6F90AF90CA4D07302CD3434C2 /* Pods-SDL2.Swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B16518AB37399934B74DCBDA86101E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDL2;
+			target = 394C0AF0E8F9A34D316B5FDB46CBDC9C /* SDL2 */;
+			targetProxy = 38859B00D1B922B8E5433E89432AF637 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E3EBEB3ECC9F3DF44FEEC671B7AB13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776B7336978C1080174A26C809BB538D /* Pods-SDL2.Swift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDL2.Swift/Pods-SDL2.Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDL2.Swift/Pods-SDL2.Swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CEC0EA5D41E9565D0340C5F65F8B92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD4D9CD22E14A32C61C806D03FCB937A /* Pods-SDL2.Swift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDL2.Swift/Pods-SDL2.Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDL2.Swift/Pods-SDL2.Swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D7735A26EA9926CC07824B1C62A6C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A3ABA28BABBFBF0A97A8999FD71E43 /* SDL2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B0E59B73E914196517DD9BBEF27CCCE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A5BB6B4D21CA0DE837F1CC79A7A8B6 /* SDL2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605501BDE812FBE3446205D77DF3D4C2 /* Build configuration list for PBXAggregateTarget "SDL2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E59B73E914196517DD9BBEF27CCCE7 /* Debug */,
+				2D7735A26EA9926CC07824B1C62A6C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3EC550951B04FFCE4F51CC144DE5844 /* Build configuration list for PBXNativeTarget "Pods-SDL2.Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CEC0EA5D41E9565D0340C5F65F8B92F /* Debug */,
+				1E3EBEB3ECC9F3DF44FEEC671B7AB13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
