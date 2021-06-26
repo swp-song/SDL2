@@ -1,6 +1,6 @@
 {
   "name": "SDL2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": "SDL2 iOS library",
   "description": "SDL2 iOS library sdk",
   "homepage": "https://github.com/swp-song/SDL2",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/swp-song/SDL2.git",
-    "tag": "1.0.1"
+    "tag": "1.0.2"
   },
   "public_header_files": "SDL2/library/**/*.h",
   "source_files": "SDL2/**/*.h",
@@ -29,5 +29,6 @@
     "MediaPlayer",
     "CoreMotion"
   ],
-  "requires_arc": true
+  "requires_arc": true,
+  "static_framework": true
 }

@@ -7,7 +7,7 @@
 
 #import "ViewController.h"
 
-#import <SDL2/SDL2.h>
+#import <SDL2/SDL.h>
 
 @interface ViewController ()
 
