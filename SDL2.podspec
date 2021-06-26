@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  SDL2 iOS library
+  SDL2 iOS library sdk 
                    DESC
 
   spec.homepage     = "https://github.com/swp-song/SDL2"
@@ -96,10 +96,10 @@ Pod::Spec.new do |spec|
   
   # spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = 'SDL2/library/**/*.{h}'
+  spec.public_header_files = 'SDL2/library/**/*.h'
   
-  spec.source_files        = 'SDL2/**/*.{h}'
-  spec.vendored_libraries  = 'SDL2/Library/*.{a}'
+  spec.source_files        = 'SDL2/**/*.h'
+  spec.vendored_libraries  = 'SDL2/Library/libSDL2.a'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -135,6 +135,7 @@ Pod::Spec.new do |spec|
   #  you can include multiple dependencies to ensure it works.
 
   spec.requires_arc = true
+  # spec.static_framework = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"

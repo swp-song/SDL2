@@ -2,7 +2,7 @@
   "name": "SDL2",
   "version": "1.0.0",
   "summary": "SDL2 iOS library",
-  "description": "SDL2 iOS library",
+  "description": "SDL2 iOS library sdk",
   "homepage": "https://github.com/swp-song/SDL2",
   "license": {
     "type": "MIT",
@@ -18,9 +18,9 @@
     "git": "https://github.com/swp-song/SDL2.git",
     "tag": "1.0.0"
   },
-  "public_header_files": "SDL2/library/**/*.{h}",
-  "source_files": "SDL2/**/*.{h}",
-  "vendored_libraries": "SDL2/Library/*.{a}",
+  "public_header_files": "SDL2/library/**/*.h",
+  "source_files": "SDL2/**/*.h",
+  "vendored_libraries": "SDL2/Library/libSDL2.a",
   "frameworks": [
     "CoreHaptics",
     "GameController",
