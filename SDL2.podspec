@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SDL2"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "SDL2 iOS library"
 
   # This description is used to generate tags and improve search results.
@@ -136,6 +136,12 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
   spec.static_framework = true
+
+  spec.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
