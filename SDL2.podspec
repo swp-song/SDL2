@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SDL2"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.3"
   spec.summary      = "SDL2 iOS library"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  SDL2 iOS library sdk by DS
+  SDL2 iOS library sdk 
                    DESC
 
   spec.homepage     = "https://github.com/swp-song/SDL2"
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source = { :git => 'https://github.com/swp-song/SDL2.git', :tag => "#{spec.version}" }
+  spec.source = { :git => 'https://github.com/swp-song/SDL2.git', :commit => spec.version.to_s }
   
 
 
@@ -96,10 +96,10 @@ Pod::Spec.new do |spec|
   
   # spec.exclude_files = "Classes/Exclude"
 
-  # spec.header_mappings_dir = 'SDL2/Header/'
-  spec.public_header_files = 'SDL2/Header/**/*.h'
-  spec.source_files        = 'SDL2/Header/**/*.h'
-  spec.vendored_libraries  = 'SDL2/Library/*.a'
+  spec.public_header_files = 'SDL2/library/**/*.h'
+  
+  spec.source_files        = 'SDL2/**/*.h'
+  spec.vendored_libraries  = 'SDL2/Library/libSDL2.a'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -135,8 +135,7 @@ Pod::Spec.new do |spec|
   #  you can include multiple dependencies to ensure it works.
 
   spec.requires_arc = true
-  
-  spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/SDL2/Header/"}
+  spec.static_framework = true
 
   spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
