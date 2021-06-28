@@ -1,1 +1,1 @@
-../../../../../SDL2/Include/SDL_test_images.h
+../../../../../SDL2/Header/include/SDL_test_images.h

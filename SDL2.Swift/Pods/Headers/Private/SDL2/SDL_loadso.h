@@ -1,1 +1,1 @@
-../../../../../SDL2/Include/SDL_loadso.h
+../../../../../SDL2/Header/include/SDL_loadso.h

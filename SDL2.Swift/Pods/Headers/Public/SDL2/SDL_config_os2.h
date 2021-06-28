@@ -1,1 +1,1 @@
-../../../../../SDL2/Include/SDL_config_os2.h
+../../../../../SDL2/Header/include/SDL_config_os2.h

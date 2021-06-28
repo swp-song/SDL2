@@ -1,8 +1,8 @@
 {
   "name": "SDL2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "summary": "SDL2 iOS library",
-  "description": "SDL2 iOS library sdk",
+  "description": "SDL2 iOS library sdk by DS",
   "homepage": "https://github.com/swp-song/SDL2",
   "license": {
     "type": "MIT",
@@ -16,11 +16,11 @@
   },
   "source": {
     "git": "https://github.com/swp-song/SDL2.git",
-    "tag": "1.0.3"
+    "tag": "1.0.4"
   },
-  "public_header_files": "SDL2/library/**/*.h",
-  "source_files": "SDL2/**/*.h",
-  "vendored_libraries": "SDL2/Library/libSDL2.a",
+  "public_header_files": "SDL2/Header/**/*.h",
+  "source_files": "SDL2/Header/**/*.h",
+  "vendored_libraries": "SDL2/Library/*.a",
   "frameworks": [
     "CoreHaptics",
     "GameController",
@@ -30,7 +30,9 @@
     "CoreMotion"
   ],
   "requires_arc": true,
-  "static_framework": true,
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/SDL2/Header/"
+  },
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },

@@ -1,1 +1,1 @@
-../../../../../SDL2/Include/SDL_egl.h
+../../../../../SDL2/Header/include/SDL_egl.h

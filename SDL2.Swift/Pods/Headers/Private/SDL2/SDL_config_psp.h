@@ -1,1 +1,1 @@
-../../../../../SDL2/Include/SDL_config_psp.h
+../../../../../SDL2/Header/include/SDL_config_psp.h

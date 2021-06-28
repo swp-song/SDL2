@@ -1,1 +1,1 @@
-../../../../../SDL2/Include/SDL_atomic.h
+../../../../../SDL2/Header/include/SDL_atomic.h

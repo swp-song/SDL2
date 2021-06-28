@@ -1,1 +1,1 @@
-../../../../../SDL2/Include/SDL_blendmode.h
+../../../../../SDL2/Header/include/SDL_blendmode.h

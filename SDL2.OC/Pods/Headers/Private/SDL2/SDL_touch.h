@@ -1,1 +1,1 @@
-../../../../../SDL2/Include/SDL_touch.h
+../../../../../SDL2/Header/include/SDL_touch.h

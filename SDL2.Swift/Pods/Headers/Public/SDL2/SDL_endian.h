@@ -1,1 +1,1 @@
-../../../../../SDL2/Include/SDL_endian.h
+../../../../../SDL2/Header/include/SDL_endian.h

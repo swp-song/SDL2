@@ -1,1 +1,1 @@
-../../../../../SDL2/Include/SDL_opengl.h
+../../../../../SDL2/Header/include/SDL_opengl.h

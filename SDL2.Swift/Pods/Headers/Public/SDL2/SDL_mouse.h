@@ -1,1 +1,1 @@
-../../../../../SDL2/Include/SDL_mouse.h
+../../../../../SDL2/Header/include/SDL_mouse.h

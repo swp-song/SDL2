@@ -1,1 +1,1 @@
-../../../../../SDL2/Include/SDL_misc.h
+../../../../../SDL2/Header/include/SDL_misc.h

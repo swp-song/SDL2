@@ -1,1 +1,1 @@
-../../../../../SDL2/Include/SDL_haptic.h
+../../../../../SDL2/Header/include/SDL_haptic.h
