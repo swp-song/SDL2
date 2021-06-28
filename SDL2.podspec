@@ -92,9 +92,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.header_mappings_dir = 'SDL2/'
-  spec.public_header_files = 'SDL2/SDL2Header/**/*.h'
-  spec.source_files        = 'SDL2/SDL2Header/**/*.h'
-  spec.vendored_libraries  = 'SDL2/SDL2Header/*.a'
+  spec.public_header_files = 'SDL2/**/*.h'
+  spec.source_files        = 'SDL2/**/*.h'
+  spec.vendored_libraries  = 'SDL2/library/*.a'
   
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -131,7 +131,7 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
 
-  spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/SDL2/SDL2Header/"}
+  spec.xcconfig = { "HEADER_SEARCH_PATHS" => ["$(PODS_ROOT)/SDL2/include/", "$(PODS_ROOT)/SDL2/SDL2/"]}
 
   spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
