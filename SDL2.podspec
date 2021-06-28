@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.header_mappings_dir = 'SDL2/heade/'
-  spec.public_header_files = 'SDL2/header/**/*.h'
+  # spec.public_header_files = 'SDL2/header/**/*.h'
   spec.source_files        = 'SDL2/header/**/*.h'
   spec.vendored_libraries  = 'SDL2/library/*.a'
   
