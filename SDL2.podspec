@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SDL2"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "SDL2 iOS library"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.header_mappings_dir = 'SDL2/header'
+  # spec.header_mappings_dir = 'SDL2/heade/'
   spec.public_header_files = 'SDL2/header/**/*.h'
   spec.source_files        = 'SDL2/header/**/*.h'
   spec.vendored_libraries  = 'SDL2/library/*.a'

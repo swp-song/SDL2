@@ -18,7 +18,6 @@
     "git": "https://github.com/swp-song/SDL2.git",
     "tag": "1.0.4"
   },
-  "header_mappings_dir": "SDL2/header",
   "public_header_files": "SDL2/header/**/*.h",
   "source_files": "SDL2/header/**/*.h",
   "vendored_libraries": "SDL2/library/*.a",
