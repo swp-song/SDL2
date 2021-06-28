@@ -1,1 +1,1 @@
-../../../../../../SDL2/include/SDL_locale.h
+../../../../../../SDL2/header/include/SDL_locale.h

@@ -1,1 +1,1 @@
-../../../../../../SDL2/include/SDL_sensor.h
+../../../../../../SDL2/header/include/SDL_sensor.h

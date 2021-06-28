@@ -1,1 +1,1 @@
-../../../../../../SDL2/include/SDL_types.h
+../../../../../../SDL2/header/include/SDL_types.h

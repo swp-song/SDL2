@@ -1,1 +1,1 @@
-../../../../../../SDL2/include/SDL_quit.h
+../../../../../../SDL2/header/include/SDL_quit.h

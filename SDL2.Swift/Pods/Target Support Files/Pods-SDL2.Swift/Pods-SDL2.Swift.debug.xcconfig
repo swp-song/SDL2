@@ -1,7 +1,7 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SDL2" $(PODS_ROOT)/SDL2/
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SDL2" $(PODS_ROOT)/SDL2/header/
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../SDL2/library"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"SDL2" -framework "AVFoundation" -framework "AudioToolbox" -framework "CoreHaptics" -framework "CoreMotion" -framework "GameController" -framework "MediaPlayer"

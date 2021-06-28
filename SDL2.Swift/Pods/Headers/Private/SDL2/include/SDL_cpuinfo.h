@@ -1,1 +1,1 @@
-../../../../../../SDL2/include/SDL_cpuinfo.h
+../../../../../../SDL2/header/include/SDL_cpuinfo.h

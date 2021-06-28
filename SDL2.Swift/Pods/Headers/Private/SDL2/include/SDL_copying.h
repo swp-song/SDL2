@@ -1,1 +1,1 @@
-../../../../../../SDL2/include/SDL_copying.h
+../../../../../../SDL2/header/include/SDL_copying.h

@@ -1,1 +1,1 @@
-../../../../../../SDL2/include/SDL_scancode.h
+../../../../../../SDL2/header/include/SDL_scancode.h

@@ -80,10 +80,9 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source = { :git => 'https://github.com/swp-song/SDL2.git', :commit => '744c2724fcaecd088cbcdf7a5bd21acac48ddfac' }
+  spec.source = { :git => 'https://github.com/swp-song/SDL2.git', :tag => "#{spec.version}" }
+
   
-
-
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
@@ -95,7 +94,7 @@ Pod::Spec.new do |spec|
   spec.header_mappings_dir = 'SDL2/header/'
   spec.public_header_files = 'SDL2/header/**/*.h'
   spec.source_files        = 'SDL2/header/**/*.h'
-  spec.vendored_libraries  = 'SDL2/library/libSDL2.a'
+  spec.vendored_libraries  = 'SDL2/library/*.a'
   
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

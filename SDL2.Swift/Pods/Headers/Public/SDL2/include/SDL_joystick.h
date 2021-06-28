@@ -1,1 +1,1 @@
-../../../../../../SDL2/include/SDL_joystick.h
+../../../../../../SDL2/header/include/SDL_joystick.h

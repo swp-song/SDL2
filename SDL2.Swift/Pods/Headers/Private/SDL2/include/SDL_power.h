@@ -1,1 +1,1 @@
-../../../../../../SDL2/include/SDL_power.h
+../../../../../../SDL2/header/include/SDL_power.h

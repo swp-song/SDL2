@@ -1,1 +1,1 @@
-../../../../../../SDL2/include/SDL_platform.h
+../../../../../../SDL2/header/include/SDL_platform.h
