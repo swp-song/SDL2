@@ -54,7 +54,7 @@
       },
       "public_header_files": "SDL2/header/SDL2/*.h",
       "source_files": "SDL2/header/SDL2/*.h",
-      "header_mappings_dir": "SDL2/header/SDL2/"
+      "header_mappings_dir": "SDL2/header/"
     }
   ]
 }
