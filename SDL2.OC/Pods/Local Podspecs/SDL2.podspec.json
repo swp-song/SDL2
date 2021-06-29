@@ -21,6 +21,7 @@
   "public_header_files": "SDL2/header/**/*.h",
   "source_files": "SDL2/header/**/*.h",
   "vendored_libraries": "SDL2/library/*.a",
+  "header_mappings_dir": "SDL2/header/include/",
   "frameworks": [
     "CoreHaptics",
     "GameController",

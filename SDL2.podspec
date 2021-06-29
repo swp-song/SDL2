@@ -91,10 +91,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # spec.header_mappings_dir = 'SDL2/heade/'
-  # spec.public_header_files = 'SDL2/header/**/*.h'
+  spec.public_header_files = 'SDL2/header/**/*.h'
   spec.source_files        = 'SDL2/header/**/*.h'
   spec.vendored_libraries  = 'SDL2/library/*.a'
+  spec.header_mappings_dir = 'SDL2/header/include/'
   
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -136,8 +136,8 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
+  
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"

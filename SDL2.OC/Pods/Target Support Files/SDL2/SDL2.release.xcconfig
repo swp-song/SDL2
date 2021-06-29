@@ -2,7 +2,7 @@ CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/SDL2
 EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SDL2" "${PODS_ROOT}/Headers/Public" $(PODS_ROOT)/SDL2/header/
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SDL2" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SDL2" $(PODS_ROOT)/SDL2/header/
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../SDL2/library"
 OTHER_LDFLAGS = $(inherited) -l"SDL2" -framework "AVFoundation" -framework "AudioToolbox" -framework "CoreHaptics" -framework "CoreMotion" -framework "GameController" -framework "MediaPlayer"
 PODS_BUILD_DIR = ${BUILD_DIR}
