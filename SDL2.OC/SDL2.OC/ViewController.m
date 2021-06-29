@@ -21,9 +21,9 @@
     
     SDL_Init(SDL_INIT_AUDIO);
     SDL_version version;
-    NSLog(@"%hhu.%hhu.%hhu", version.minor, version.major, version.patch);
+    NSLog(@"%hhu.%hhu.%hhu", version.major, version.minor, version.patch);
     SDL_GetVersion(&version);
-    NSLog(@"%hhu.%hhu.%hhu", version.minor, version.major, version.patch);
+    NSLog(@"%hhu.%hhu.%hhu", version.major, version.minor, version.patch);
 }
 
 
