@@ -22,7 +22,7 @@
     "SDL",
     "SDL2"
   ],
-  "header_mappings_dir": "SDL2/header/",
+  "header_mappings_dir": "SDL2/",
   "requires_arc": true,
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
@@ -33,9 +33,9 @@
   "subspecs": [
     {
       "name": "SDL",
-      "public_header_files": "SDL2/header/include/*.h",
-      "source_files": "SDL2/header/include/*.h",
-      "vendored_libraries": "SDL2/library/*.a",
+      "public_header_files": "SDL2/lib/**/*.h",
+      "source_files": "SDL2/lib/**/*.h",
+      "vendored_libraries": "SDL2/lib/**/*.a",
       "frameworks": [
         "CoreHaptics",
         "GameController",
@@ -52,8 +52,8 @@
 
         ]
       },
-      "public_header_files": "SDL2/header/SDL2/*.h",
-      "source_files": "SDL2/header/SDL2/*.h"
+      "public_header_files": "SDL2/SDL2/*.h",
+      "source_files": "SDL2/SDL2/*.h"
     }
   ]
 }
