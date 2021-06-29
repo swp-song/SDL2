@@ -97,7 +97,7 @@ Pod::Spec.new do |spec|
     # sdl.dependency 'SDL2/SDL2'
     sdl.public_header_files = 'SDL2/header/include/*.h'
     sdl.source_files        = 'SDL2/header/include/*.h'
-    sdl.vendored_libraries  = 'SDL2/library/*.a'
+    sdl.vendored_libraries  = 'SDL2/**/*.a'
     
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
