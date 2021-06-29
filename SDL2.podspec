@@ -95,9 +95,9 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'SDL' do |sdl|
     # sdl.dependency 'SDL2/SDL2'
-    sdl.public_header_files = 'SDL2/header/include/*.h'
-    sdl.source_files        = 'SDL2/header/include/*.h'
-    sdl.header_mappings_dir = 'SDL2/header/include/'
+    sdl.public_header_files = 'SDL2/header/**/*.h'
+    sdl.source_files        = 'SDL2/header/**/*.h'
+    sdl.header_mappings_dir = 'SDL2/header/'
     sdl.vendored_libraries  = 'SDL2/library/*.a'
     
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -127,9 +127,9 @@ end
 
   spec.subspec 'SDL2' do |sdl2|
     sdl2.dependency 'SDL2/SDL'
-    sdl2.public_header_files = 'SDL2/header/SDL2/*.h'
-    sdl2.source_files        = 'SDL2/header/SDL2/*.h'
-    sdl2.header_mappings_dir = 'SDL2/header/SDL2/'
+    sdl2.public_header_files = 'SDL2/header/**/*.h'
+    sdl2.source_files        = 'SDL2/header/**/*.h'
+    sdl2.header_mappings_dir = 'SDL2/header/'
   end
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
