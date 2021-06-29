@@ -3,3 +3,5 @@
 //
 
 #import <SDL2/SDL2.h>
+//or
+//#import <SDL2/SDL.h>

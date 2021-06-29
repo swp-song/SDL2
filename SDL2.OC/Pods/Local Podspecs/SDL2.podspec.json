@@ -1,6 +1,6 @@
 {
   "name": "SDL2",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "summary": "SDL2 iOS library",
   "description": "SDL2 iOS library sdk by DS",
   "homepage": "https://github.com/swp-song/SDL2",
@@ -16,9 +16,12 @@
   },
   "source": {
     "git": "https://github.com/swp-song/SDL2.git",
-    "tag": "1.0.6"
+    "tag": "1.0.7"
   },
-  "default_subspecs": "SDL2",
+  "default_subspecs": [
+    "SDL",
+    "SDL2"
+  ],
   "requires_arc": true,
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
@@ -28,10 +31,10 @@
   },
   "subspecs": [
     {
-      "name": "SDL2",
-      "public_header_files": "SDL2/header/**/*.h",
-      "source_files": "SDL2/header/**/*.h",
-      "header_mappings_dir": "SDL2/header/",
+      "name": "SDL",
+      "public_header_files": "SDL2/header/include/*.h",
+      "source_files": "SDL2/header/include/*.h",
+      "header_mappings_dir": "SDL2/header/include/",
       "vendored_libraries": "SDL2/library/*.a",
       "frameworks": [
         "CoreHaptics",
@@ -41,6 +44,17 @@
         "MediaPlayer",
         "CoreMotion"
       ]
+    },
+    {
+      "name": "SDL2",
+      "dependencies": {
+        "SDL2/SDL": [
+
+        ]
+      },
+      "public_header_files": "SDL2/header/SDL2/*.h",
+      "source_files": "SDL2/header/SDL2/*.h",
+      "header_mappings_dir": "SDL2/header/SDL2/"
     }
   ]
 }

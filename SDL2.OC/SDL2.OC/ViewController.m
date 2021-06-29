@@ -8,6 +8,8 @@
 #import "ViewController.h"
 
 #import <SDL2/SDL2.h>
+// or
+//#import <SDL2/SDL.h>
 
 @interface ViewController ()
 

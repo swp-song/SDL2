@@ -1,1 +1,0 @@
-../../../../../../SDL2/header/include/SDL_video.h
