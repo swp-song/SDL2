@@ -6,7 +6,9 @@ target 'SDL2.Swift' do
   use_frameworks!
 
   # Pods for SDL2.Swift
-
+  
+#  pod 'SDL2/SDL', :path => '../'
+#  pod 'SDL2/SDL2', :path => '../'
   pod 'SDL2', :path => '../'
 
 end
