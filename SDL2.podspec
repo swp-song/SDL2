@@ -91,11 +91,15 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.public_header_files = 'SDL2/header/**/*.h'
-  spec.source_files        = 'SDL2/header/**/*.h'
-  spec.vendored_libraries  = 'SDL2/library/*.a'
-  spec.header_mappings_dir = 'SDL2/header/'
-  
+  spec.default_subspec = 'SDL2'
+
+  spec.subspec 'SDL2' do |sdl2|
+
+    sdl2.public_header_files = 'SDL2/header/**/*.h'
+    sdl2.source_files        = 'SDL2/header/**/*.h'
+    sdl2.header_mappings_dir = 'SDL2/header/'
+    sdl2.vendored_libraries  = 'SDL2/library/*.a'
+    
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
@@ -117,8 +121,9 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  spec.frameworks = "CoreHaptics", "GameController", "AVFoundation", "AudioToolbox", "MediaPlayer", "CoreMotion"
+    sdl2.frameworks = "CoreHaptics", "GameController", "AVFoundation", "AudioToolbox", "MediaPlayer", "CoreMotion"
 
+  end
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
@@ -131,7 +136,7 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
 
-  spec.xcconfig = { "HEADER_SEARCH_PATHS" => ["$(PODS_ROOT)/SDL2/header/"]}
+  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => ["$(PODS_ROOT)/SDL2/header/"]}
 
   spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
