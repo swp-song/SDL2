@@ -5,6 +5,6 @@
 #ifndef SDL2_h
 #define SDL2_h
 
-#import "SDL.h"
+#import <include/SDL.h>
 
 #endif /* SDL2_h */

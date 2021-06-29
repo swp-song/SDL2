@@ -94,7 +94,7 @@ Pod::Spec.new do |spec|
   spec.public_header_files = 'SDL2/header/**/*.h'
   spec.source_files        = 'SDL2/header/**/*.h'
   spec.vendored_libraries  = 'SDL2/library/*.a'
-  spec.header_mappings_dir = 'SDL2/header/include/'
+  spec.header_mappings_dir = 'SDL2/header/'
   
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -136,7 +136,7 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
-  
+
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
