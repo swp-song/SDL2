@@ -113,7 +113,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  spec.frameworks = "CoreHaptics", "GameController", "AVFoundation", "AudioToolbox", "MediaPlayer", "CoreMotion"
+  spec.frameworks = "Foundation", "CoreHaptics", "GameController", "AVFoundation", "AudioToolbox", "MediaPlayer", "CoreMotion"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"

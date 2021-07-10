@@ -2,7 +2,7 @@
   "name": "SDL2",
   "version": "2.0.0",
   "summary": "SDL2 iOS Framework",
-  "description": "SDL2 iOS Framework sdk by DS",
+  "description": "SDL2 iOS Framework sdk by Dream Song",
   "homepage": "https://github.com/swp-song/SDL2",
   "license": {
     "type": "MIT",
@@ -20,6 +20,7 @@
   },
   "vendored_frameworks": "SDL2/SDL2.framework",
   "frameworks": [
+    "Foundation",
     "CoreHaptics",
     "GameController",
     "AVFoundation",
