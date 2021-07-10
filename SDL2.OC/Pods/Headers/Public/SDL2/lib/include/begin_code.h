@@ -1,1 +1,0 @@
-../../../../../../../SDL2/lib/include/begin_code.h

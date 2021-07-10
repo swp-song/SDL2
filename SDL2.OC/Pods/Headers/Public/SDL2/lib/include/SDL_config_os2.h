@@ -1,1 +1,0 @@
-../../../../../../../SDL2/lib/include/SDL_config_os2.h

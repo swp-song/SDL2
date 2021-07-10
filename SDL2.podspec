@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SDL2"
-  spec.version      = "1.0.7"
-  spec.summary      = "SDL2 iOS library"
+  spec.version      = "2.0.0"
+  spec.summary      = "SDL2 iOS Framework"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  SDL2 iOS library sdk by DS
+  SDL2 iOS Framework sdk by Dream Song 
                    DESC
 
   spec.homepage     = "https://github.com/swp-song/SDL2"
@@ -91,14 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.default_subspec = 'SDL', 'SDL2'
+  spec.vendored_frameworks  = 'SDL2/SDL2.framework'
 
-  spec.subspec 'SDL' do |sdl|
-    # sdl.dependency 'SDL2/SDL2'
-    sdl.public_header_files = 'SDL2/lib/**/*.h'
-    sdl.source_files        = 'SDL2/lib/**/*.h'
-    sdl.vendored_libraries  = 'SDL2/lib/**/*.a'
-    
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
@@ -119,18 +113,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
-  
-  sdl.frameworks = "CoreHaptics", "GameController", "AVFoundation", "AudioToolbox", "MediaPlayer", "CoreMotion"
-end
-
-  spec.subspec 'SDL2' do |sdl2|
-    sdl2.dependency 'SDL2/SDL'
-    sdl2.public_header_files = 'SDL2/SDL2/*.h'
-    sdl2.source_files        = 'SDL2/SDL2/*.h'
-  end
-
-  spec.header_mappings_dir = 'SDL2/'
+  spec.frameworks = "CoreHaptics", "GameController", "AVFoundation", "AudioToolbox", "MediaPlayer", "CoreMotion"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
