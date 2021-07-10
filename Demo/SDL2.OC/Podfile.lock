@@ -1,5 +1,5 @@
 PODS:
-  - SDL2 (2.0.0)
+  - SDL2 (2.0.1)
 
 DEPENDENCIES:
   - SDL2 (from `../../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  SDL2: 5a9a4d9ad6035e0090ba861bc7e6707e8de71703
+  SDL2: 3aeeadc5a6d7dea9a26bf809e624382608ec3cc5
 
 PODFILE CHECKSUM: c2ec3f3c774f096409e8792e916ea7d034909c2f
 

@@ -2,52 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>BuildMachineOSBuild</key>
-    <string>20F71</string>
     <key>CFBundleDevelopmentRegion</key>
-    <string>en</string>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
     <key>CFBundleExecutable</key>
     <string>SDL2</string>
     <key>CFBundleIdentifier</key>
-    <string></string>
+    <string>com.drem-song.sdl2</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
     <string>SDL2</string>
     <key>CFBundlePackageType</key>
-    <string>FMWK</string>
+    <string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
     <key>CFBundleShortVersionString</key>
-    <string></string>
-    <key>CFBundleSignature</key>
-    <string>????</string>
-    <key>CFBundleSupportedPlatforms</key>
-    <array>
-    <string>iPhoneOS</string>
-    </array>
+    <string>2.0.14</string>
     <key>CFBundleVersion</key>
-    <string>1</string>
-    <key>DTCompiler</key>
-    <string>com.apple.compilers.llvm.clang.1_0</string>
-    <key>DTPlatformBuild</key>
-    <string>12E506</string>
-    <key>DTPlatformName</key>
-    <string>iphoneos</string>
-    <key>DTPlatformVersion</key>
-    <string>14.5</string>
-    <key>DTSDKBuild</key>
-    <string>20E177</string>
-    <key>DTSDKName</key>
-    <string>iphoneos14.5</string>
-    <key>DTXcode</key>
-    <string>1250</string>
-    <key>DTXcodeBuild</key>
-    <string>12E506</string>
-    <key>MinimumOSVersion</key>
-    <string>8.0</string>
-    <key>UIDeviceFamily</key>
-    <array>
-    <integer>1</integer>
-    <integer>2</integer>
-    </array>
+    <string>2.0.14</string>
 </dict>
 </plist>
