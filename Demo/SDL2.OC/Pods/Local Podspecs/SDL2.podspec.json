@@ -18,7 +18,7 @@
     "git": "https://github.com/swp-song/SDL2.git",
     "tag": "2.1.0"
   },
-  "vendored_frameworks": "SDL2/SDL2.framework",
+  "vendored_frameworks": "SDL2/SDL2.xcframework",
   "frameworks": [
     "Foundation",
     "CoreHaptics",
