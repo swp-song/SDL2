@@ -19,8 +19,6 @@ class ViewController: UIViewController {
         print("\(version.major).\(version.minor).\(version.patch)")
         SDL_GetVersion(&version)
         print("\(version.major).\(version.minor).\(version.patch)")
-        
     }
-
 }
 

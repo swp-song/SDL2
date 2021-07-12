@@ -149,5 +149,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/../../../SDL2/SDL2.xcframework" "SDL2" "framework" "ios-i386_x86_64-simulator" "ios-arm64_armv7_armv7s"
+install_xcframework "${PODS_ROOT}/../../../Sources/SDL2.xcframework" "SDL2" "framework" "ios-i386_x86_64-simulator" "ios-arm64_armv7_armv7s"
 

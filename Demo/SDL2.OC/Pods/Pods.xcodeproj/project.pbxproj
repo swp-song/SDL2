@@ -39,10 +39,10 @@
 		03BA3FCBFAC13317AE9A4566DE3A1ACF /* Pods-SDL2.OC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDL2.OC-Info.plist"; sourceTree = "<group>"; };
 		0DBF2C70D6974F6501512C14DFFC08B3 /* SDL2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDL2.debug.xcconfig; sourceTree = "<group>"; };
 		1E1AACDC6C02B544EF1930038861CACD /* SDL2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDL2.release.xcconfig; sourceTree = "<group>"; };
+		26B1117ADFCF01D1A9565012CEBDBEBD /* SDL2.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SDL2.xcframework; path = Sources/SDL2.xcframework; sourceTree = "<group>"; };
 		5946E558CA59FD8DD566E8F7C9CD4F0E /* Pods-SDL2.OC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDL2.OC-acknowledgements.markdown"; sourceTree = "<group>"; };
 		59C0867E0980F57412A6BE4BE99710CA /* Pods-SDL2.OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDL2.OC.debug.xcconfig"; sourceTree = "<group>"; };
 		66A2F38A3EB63B9E926E0C4D46C80E91 /* Pods_SDL2_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDL2_OC.framework; path = "Pods-SDL2.OC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E306ACCEABB3F4D525214BE2460E959 /* SDL2.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SDL2.xcframework; path = SDL2/SDL2.xcframework; sourceTree = "<group>"; };
 		6F4FF7D04699EE123BCD0581BF4D4D76 /* Pods-SDL2.OC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDL2.OC-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		819FB8052CC72E66729D843B397669FE /* Pods-SDL2.OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDL2.OC-dummy.m"; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		672A2329EDC36D9A7E0098C06BE45DB5 /* SDL2 */ = {
 			isa = PBXGroup;
 			children = (
-				F07215E84009F79B90B30A584223DAD4 /* Frameworks */,
+				EA068ECE2906F2439740ABC65B55580E /* Frameworks */,
 				2D77E7548C0C68C19F0089920DE35DCF /* Pod */,
 				AEB7C43B042360D6498F8CFAC21A806F /* Support Files */,
 			);
@@ -167,10 +167,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F07215E84009F79B90B30A584223DAD4 /* Frameworks */ = {
+		EA068ECE2906F2439740ABC65B55580E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6E306ACCEABB3F4D525214BE2460E959 /* SDL2.xcframework */,
+				26B1117ADFCF01D1A9565012CEBDBEBD /* SDL2.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

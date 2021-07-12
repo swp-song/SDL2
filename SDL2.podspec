@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SDL2"
-  spec.version      = "2.1.0"
-  spec.summary      = "SDL2 iOS Framework"
+  spec.version      = "3.0.0"
+  spec.summary      = "SDL2 iOS SDK Framework"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  SDL2 iOS Framework sdk by Dream Song 
+  SDL2 iOS Framework SDK by Dream Song 
                    DESC
 
   spec.homepage     = "https://github.com/swp-song/SDL2"
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.vendored_frameworks  = 'SDL2/SDL2.xcframework'
+  spec.vendored_frameworks  = 'Sources/SDL2.xcframework'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

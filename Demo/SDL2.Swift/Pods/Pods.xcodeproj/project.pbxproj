@@ -36,12 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0223D7D8DBA0CD8D2A038E674B6375C6 /* SDL2.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SDL2.xcframework; path = Sources/SDL2.xcframework; sourceTree = "<group>"; };
 		104F6896BA07B9782B1D333439DC9285 /* SDL2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDL2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		26AD6DE25F93A9C722E3851C58FF9353 /* SDL2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDL2.release.xcconfig; sourceTree = "<group>"; };
 		353DE1F667F9138FF8821148EA871CB1 /* Pods-SDL2.Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDL2.Swift-acknowledgements.plist"; sourceTree = "<group>"; };
 		3D2E0C17E7DF585BEAA25635FA1EEED3 /* Pods-SDL2.Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDL2.Swift-Info.plist"; sourceTree = "<group>"; };
 		479636867B2292117314B6F8A27D0DC3 /* SDL2-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SDL2-xcframeworks.sh"; sourceTree = "<group>"; };
-		6C6088FFAD54C3D0DB4FC218D672DD39 /* SDL2.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SDL2.xcframework; path = SDL2/SDL2.xcframework; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73D7B181B6EA1515716274A9B658201C /* Pods-SDL2.Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDL2.Swift-dummy.m"; sourceTree = "<group>"; };
 		776B7336978C1080174A26C809BB538D /* Pods-SDL2.Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDL2.Swift.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +76,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		3CEE12DA35C81B8978AFB8CABEC0BFC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0223D7D8DBA0CD8D2A038E674B6375C6 /* SDL2.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		47D043B0DBC1F3F011AB035F617F1927 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,14 +100,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		71F06842E4982CDFD64D9D5CF39E37C9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6C6088FFAD54C3D0DB4FC218D672DD39 /* SDL2.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		77999818C085D09F3C82E186590C1C39 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +113,7 @@
 		7C41930496A6B7DFA9F2FAA4A9DDA0E8 /* SDL2 */ = {
 			isa = PBXGroup;
 			children = (
-				71F06842E4982CDFD64D9D5CF39E37C9 /* Frameworks */,
+				3CEE12DA35C81B8978AFB8CABEC0BFC7 /* Frameworks */,
 				77999818C085D09F3C82E186590C1C39 /* Pod */,
 				F32CEB54D4AE71FB25316FF5C10525F5 /* Support Files */,
 			);
