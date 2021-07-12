@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SDL2"
-  spec.version      = "3.1.0"
+  spec.version      = "3.2.0"
   spec.summary      = "SDL2 iOS SDK XCFramework"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.vendored_frameworks  = 'SDL2/Sources/SDL2.xcframework'
+  spec.vendored_frameworks  = 'Sources/SDL2.xcframework'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
