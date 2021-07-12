@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let package = Package(name: "SDL2",platforms: [.iOS(.v13)], products: [
+let package = Package(name: "SDL2", platforms: [.iOS(.v13)], products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(name: "SDL2", targets: ["SDL2"]),
     ],
@@ -14,6 +14,6 @@ let package = Package(name: "SDL2",platforms: [.iOS(.v13)], products: [
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .binaryTarget(name: "SDL2", path: "Sources/SDL2.xcframework"),
+        .binaryTarget(name: "SDL2", path: "Sources/SDL2.xcframework")
     ]
 )
