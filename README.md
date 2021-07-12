@@ -14,7 +14,7 @@
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/swp-song/SDL2.git", .upToNextMajor(from: "3.1.0"))
+    .package(url: "https://github.com/swp-song/SDL2.git", .upToNextMajor(from: "3.2.0"))
 ]
 ```
 

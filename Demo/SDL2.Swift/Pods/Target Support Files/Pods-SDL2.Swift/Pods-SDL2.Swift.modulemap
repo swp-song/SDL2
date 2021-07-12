@@ -1,6 +1,0 @@
-framework module Pods_SDL2_Swift {
-  umbrella header "Pods-SDL2.Swift-umbrella.h"
-
-  export *
-  module * { export * }
-}
