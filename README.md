@@ -1,22 +1,38 @@
 # SDL2
 
-### SDL2 iOS Framework
+### SDL2 iOS xcframework
+
+> * SDL2 iOS SDL2.xcframework by Dream Song
 
 -----
 
- ### 导入
- > * CocoaPods 导入:
+### Swift Package Manager
+
+> * Installation with Swift Package Manager
+
+> * Once you have your Swift package set up, adding SDL2 as a dependency is as easy as adding it to the dependencies value of your Package.swift.
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/swp-song/SDL2.git", .upToNextMajor(from: "3.1.0"))
+]
+```
+
+
+-----
+
+ ### Installation CocoaPods 
+ > * Installation CocoaPods :
 
 ```ruyby
 
     pod search SDL2
     pod 'SDL2'
-
 ```
 
 -----
 
-### 脚本使用
+### shell
 
 ```ruyby
 
